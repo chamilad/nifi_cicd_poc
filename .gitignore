@@ -1,0 +1,19 @@
+# no binaries
+*.gz
+
+# no distributions
+nifi-registry-1.14.0*/
+!nifi-registry-1.14.0_dev/conf/nifi-registry.properties
+!nifi-registry-1.14.0_test/conf/providers.xml
+nifi-1.14*/
+!nifi-1.14.0_dev/conf/nifi.properties
+!nifi-1.14.0_test/conf/nifi.properties
+
+# credentials
+creds
+
+# venv
+venv/
+
+# temp files
+*.swp
